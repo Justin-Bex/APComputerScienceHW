@@ -26,7 +26,7 @@ public class Unit1Hw3 {
         // Make a variable to store the average of your grades
         // Hint: average = (grade1 + grade2 + ...) / total
         // Think about what type the variable should be - it should have a decimal point!
-        double avgGrade = (grade1 + grade2 + grade3 + grade4 + grade5) / 5;
+        double avgGrade = (grade1 + grade2 + grade3 + grade4 + grade5) / 5d;
         // TODO 
         // Add some print statements to output the following to the user
         // STUDENT:     LAST_NAME, FIRST_NAME
