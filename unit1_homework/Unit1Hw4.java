@@ -1,3 +1,5 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
 
 public class Unit1Hw4 {
 
@@ -12,17 +14,24 @@ public class Unit1Hw4 {
 
         System.out.println("\n\n");
 
-        String s2 = "The struggle is fake.";
         // TODO: INDEXOF - takes String as parameter
-        s1.indexOf();
+        System.out.println(s1.indexOf("o"));
+        System.out.println(s1.indexOf("m"));
+        System.out.println(s1.indexOf("o"));
+        System.out.println(s1.indexOf("c"));
+        System.out.println(s1.indexOf("r"));
         // TODO: SUBSTRING - with one parameter
-        s1.substring();
+        System.out.println(s1.substring(4));
         // TODO: SUBSTRING - with two parameters
-        s1.substring();
+        System.out.println(s1.substring(0, 4));
         // TODO: EQUALS
-        s1.equals();
+        String s2 = "Peanut";
+        String s3 = "computer";
+        System.out.println(s1.equals(s2));
+        System.out.println(s1.equals(s3));
         // TODO: COMPARETO
-        s1.compareTo();
+        System.out.println(s1.compareTo(s2));
+        System.out.println(s1.compareTo(s3));
     }
 
 }
